@@ -26,7 +26,7 @@ Once you've got Node installed:
 
 ## Authors
 
-* **Igor Dias** - *Initial work* - [Be The Hero](https://github.com/Igorth/challenge-back-end)
+* **Igor Dias** - *Initial work*
 
 
 ## License
