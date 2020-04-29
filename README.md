@@ -1,9 +1,10 @@
 # First code challenge Back-end - Bootcamp
+![](https://img.shields.io/github/license/Igorth/challenge-back-end)
 
-First code challenge, putting in practice that we learn in the first class.
-- Methods HTTP;
-- Type of params;
-- Middlewares;
+First code challenge, putting in practice that we learn in the first week.
+
+## 🖥 What I learn
+Methods HTTP | Type of Params | Middlewares
 
 ## Instructions
 
@@ -24,9 +25,9 @@ Once you've got Node installed:
 * Check out the repo to see the git history: `https://github.com/Igorth/challenge-back-end`
 
 
-## Authors
+## 🙅‍♂️Authors
 
-* **Igor Dias** - *Initial work*
+* [**Igor Dias**](https://www.linkedin.com/in/igordiasth/)
 
 
 ## License

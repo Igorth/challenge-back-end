@@ -42,7 +42,7 @@ app.put("/repositories/:id", (request, response) => {
 
   const repositoryIndex = repositories.findIndex(repository => repository.id === id);
 
-  if (repositoryIndex < 0) {
+  if (repositoryIndex === -1) {
     return response.status(400).json({ error: "Repository not found" });
   }
 
@@ -66,11 +66,11 @@ app.delete("/repositories/:id", (req, res) => {
 
   const repositoryIndex = repositories.findIndex(repository => repository.id === id);
 
-  if (repositoryIndex < 0) {
+  if (repositoryIndex >= 0) {
+    repositories.splice(repositoryIndex, 1);
+  } else{
     return res.status(400).json({ error: "Repository not found" });
-  }
-
-  repositories.splice(repositoryIndex, 1);
+  } 
 
   return res.status(204).send();
 });
